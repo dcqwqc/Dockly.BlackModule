@@ -1,0 +1,10 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="Dockly.Modules.BlackModule">
+    <Border Background="Black" Padding="20" Height="230" Width="230" CornerRadius="10">
+        <StackPanel>
+            <TextBlock Text="Black DLL Module" FontSize="18" FontWeight="Bold"/>
+            <Button Name="TestButton" Content="Test Button" Width="100"/>
+        </StackPanel>
+    </Border>
+</UserControl>
